@@ -2,7 +2,7 @@
   "name": "farkle",
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://yourusername.github.io/farkle",
+  "homepage": "https://DoiBoi.github.io/farkle",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
