@@ -1,5 +1,5 @@
-import * as THREE from 'three.js';
-import * as CANNON from 'cannon-es.js';
+import * as THREE from 'three';
+import * as CANNON from 'cannon-es';
 
 class Dice {
     constructor(scene, world, position = { x: 0, y: 5, z: 0 }) {
