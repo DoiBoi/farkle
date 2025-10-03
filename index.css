@@ -41,6 +41,25 @@ canvas {
   z-index: 1000;
   max-width: calc(100vw - 20px);
   word-wrap: break-word;
+  line-height: 1.4;
+}
+
+/* Control buttons styling */
+button {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* Mobile-specific adjustments */
@@ -53,6 +72,11 @@ canvas {
     right: 5px;
     max-width: none;
   }
+  
+  button {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+  }
 }
 
 /* Landscape mobile orientation */
@@ -62,6 +86,11 @@ canvas {
     padding: 6px 10px;
     top: 5px;
     left: 5px;
+  }
+  
+  button {
+    font-size: 12px !important;
+    padding: 6px 12px !important;
   }
 }
 
