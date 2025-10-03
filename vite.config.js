@@ -3,11 +3,12 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   // Set the base path for GitHub Pages
   // Replace 'farkle' with your actual repository name
-  base: 'https://DoiBoi.github.io/farkle/',
+  base: 'https://doiboi.github.io/farkle/',
   
   // Build configuration
   build: {
     outDir: 'dist',
+    assetsDir: 'assets',
     sourcemap: true,
     rollupOptions: {
       output: {
